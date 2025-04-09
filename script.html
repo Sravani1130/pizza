@@ -15,7 +15,7 @@
         .inventory-table th, .inventory-table td{ border: 1px solid #ddd; padding: 8px; text-align: left; }
         .bill-details { margin-top: 20px; border: 1px solid #ddd; padding: 15px; }
         body {
-  background-image: url('C:/Users/Somay/Documents/health/html/pizza/img 2.png');
+  background-image: url('img 2.png');
   background-repeat: no-repeat;
   background-size: cover; /* or contain */
   background-position: left center; /* or center center */
@@ -34,11 +34,11 @@
     <div class="step" id="base-selection">
         <h2>1. Choose Pizza Base</h2>
         <select id="pizzaBase" data-preview-id="basePreview">
-            <option value="thin" data-image="C:\Users\Somay\Documents\health\html\pizza\thin crust pizza .webp" data-price="100">Thin Crust (₹100)</option>
-            <option value="thick" data-image="C:\Users\Somay\Documents\health\html\pizza\thick  crust pizza.webp" data-price="120">Thick Crust (₹120)</option>
-            <option value="wholeWheat" data-image="C:\Users\Somay\Documents\health\html\pizza\whole wheat pizza.webp" data-price="130">Whole Wheat (₹130)</option>
-            <option value="glutenFree" data-image="C:\Users\Somay\Documents\health\html\pizza\gulten free pizza.webp" data-price="150">Gluten-Free (₹150)</option>
-            <option value="cauliflower" data-image="C:\Users\Somay\Documents\health\html\pizza\Cauliflower pizza.webp" data-price="140">Cauliflower (₹140)</option>
+            <option value="thin" data-image="thin crust pizza .webp" data-price="100">Thin Crust (₹100)</option>
+            <option value="thick" data-image="thick  crust pizza.webp" data-price="120">Thick Crust (₹120)</option>
+            <option value="wholeWheat" data-image="whole wheat pizza.webp" data-price="130">Whole Wheat (₹130)</option>
+            <option value="glutenFree" data-image="gulten free pizza.webp" data-price="150">Gluten-Free (₹150)</option>
+            <option value="cauliflower" data-image="Cauliflower pizza.webp" data-price="140">Cauliflower (₹140)</option>
         </select>
         <div class="preview-container">
             <img id="basePreview" class="preview-image" src="" alt="Base Preview">
@@ -48,11 +48,11 @@
     <div class="step" id="sauce-selection">
         <h2>2. Choose Sauce</h2>
         <select id="pizzaSauce" data-preview-id="saucePreview">
-            <option value="tomato" data-image="C:\Users\Somay\Documents\health\html\pizza\tomato sause.webp" data-price="20">Tomato (₹20)</option>
-            <option value="pesto" data-image="C:\Users\Somay\Documents\health\html\pizza\pesto sause.webp" data-price="30">Pesto (₹30)</option>
-            <option value="bbq" data-image="C:\Users\Somay\Documents\health\html\pizza\bbq sause.webp" data-price="25">BBQ (₹25)</option>
-            <option value="alfredo" data-image="C:\Users\Somay\Documents\health\html\pizza\alfredo sause.webp" data-price="35">Alfredo (₹35)</option>
-            <option value="spicyTomato" data-image="C:\Users\Somay\Documents\health\html\pizza\spicy tomato.webp" data-price="28">Spicy Tomato (₹28)</option>
+            <option value="tomato" data-image="tomato sause.webp" data-price="20">Tomato (₹20)</option>
+            <option value="pesto" data-image="pesto sause.webp" data-price="30">Pesto (₹30)</option>
+            <option value="bbq" data-image="bbq sause.webp" data-price="25">BBQ (₹25)</option>
+            <option value="alfredo" data-image="alfredo sause.webp" data-price="35">Alfredo (₹35)</option>
+            <option value="spicyTomato" data-image="spicy tomato.webp" data-price="28">Spicy Tomato (₹28)</option>
         </select>
         <div class="preview-container">
             <img id="saucePreview" class="preview-image" src="" alt="Sauce Preview">
@@ -62,10 +62,10 @@
     <div class="step" id="cheese-selection">
         <h2>3. Choose Cheese</h2>
         <select id="pizzaCheese" data-preview-id="cheesePreview">
-            <option value="mozzarella" data-image="C:\Users\Somay\Documents\health\html\pizza\MOR.webp" data-price="40">Mozzarella (₹40)</option>
-            <option value="cheddar" data-image="C:\Users\Somay\Documents\health\html\pizza\CHE.webp" data-price="45">Cheddar (₹45)</option>
-            <option value="parmesan" data-image="C:\Users\Somay\Documents\health\html\pizza\PAR.webp" data-price="50">Parmesan (₹50)</option>
-            <option value="vegan" data-image="C:\Users\Somay\Documents\health\html\pizza\VEGAN.webp" data-price="60">Vegan (₹60)</option>
+            <option value="mozzarella" data-image="MOR.webp" data-price="40">Mozzarella (₹40)</option>
+            <option value="cheddar" data-image="CHE.webp" data-price="45">Cheddar (₹45)</option>
+            <option value="parmesan" data-image="PAR.webp" data-price="50">Parmesan (₹50)</option>
+            <option value="vegan" data-image="VEGAN.webp" data-price="60">Vegan (₹60)</option>
         </select>
         <div class="preview-container">
             <img id="cheesePreview" class="preview-image" src="" alt="Cheese Preview">
@@ -75,11 +75,11 @@
     <div class="step" id="veggie-selection">
         <h2>4. Choose Veggies</h2>
         <div id="veggieCheckboxes">
-            <label><input type="checkbox" name="veggies" value="onions" data-image="C:\Users\Somay\Documents\health\html\pizza\ONION.webp" data-price="10"> Onions (₹10) <img src="C:\Users\Somay\Documents\health\html\pizza\ONION.webp" alt="Onions" style="width: 20px; vertical-align: middle;"></label><br>
-            <label><input type="checkbox" name="veggies" value="peppers" data-image="C:\Users\Somay\Documents\health\html\pizza\pepper.webp" data-price="15"> Peppers (₹15) <img src="C:\Users\Somay\Documents\health\html\pizza\pepper.webp" alt="Peppers" style="width: 20px; vertical-align: middle;"></label><br>
-            <label><input type="checkbox" name="veggies" value="mushrooms" data-image="C:\Users\Somay\Documents\health\html\pizza\MUSHROOM.webp" data-price="12"> Mushrooms (₹12) <img src="C:\Users\Somay\Documents\health\html\pizza\MUSHROOM.webp" alt="Mushrooms" style="width: 20px; vertical-align: middle;"></label><br>
-            <label><input type="checkbox" name="veggies" value="olives" data-image="C:\Users\Somay\Documents\health\html\pizza\olives.webp" data-price="18"> Olives (₹18) <img src="C:\Users\Somay\Documents\health\html\pizza\olives.webp" alt="Olives" style="width: 20px; vertical-align: middle;"></label><br>
-            <label><input type="checkbox" name="veggies" value="spinach" data-image="C:\Users\Somay\Documents\health\html\pizza\s[inach.webp" data-price="13"> Spinach (₹13) <img src="C:\Users\Somay\Documents\health\html\pizza\s[inach.webp" alt="Spinach" style="width: 20px; vertical-align: middle;"></label><br>
+            <label><input type="checkbox" name="veggies" value="onions" data-image="ONION.webp" data-price="10"> Onions (₹10) <img src="ONION.webp" alt="Onions" style="width: 20px; vertical-align: middle;"></label><br>
+            <label><input type="checkbox" name="veggies" value="peppers" data-image="pepper.webp" data-price="15"> Peppers (₹15) <img src="pepper.webp" alt="Peppers" style="width: 20px; vertical-align: middle;"></label><br>
+            <label><input type="checkbox" name="veggies" value="mushrooms" data-image="MUSHROOM.webp" data-price="12"> Mushrooms (₹12) <img src="MUSHROOM.webp" alt="Mushrooms" style="width: 20px; vertical-align: middle;"></label><br>
+            <label><input type="checkbox" name="veggies" value="olives" data-image="olives.webp" data-price="18"> Olives (₹18) <img src="olives.webp" alt="Olives" style="width: 20px; vertical-align: middle;"></label><br>
+            <label><input type="checkbox" name="veggies" value="spinach" data-image="s[inach.webp" data-price="13"> Spinach (₹13) <img src="s[inach.webp" alt="Spinach" style="width: 20px; vertical-align: middle;"></label><br>
         </div>
     </div>
 
